@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>astatide</title>
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+  </head>
+
+  <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+#mainbg {
+  image-rendering: pixelated;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('front_page_bg.png');
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  </style>
+
+  <body>
+    <div id="mainbg">
+      <div id="astwindow" class="window" style="width: 250px; position: center">
+        <div class="title-bar">
+          <div class="title-bar-text">astatide.net</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <img src="astatidenet.png" style="max-width: 100%; max-height: 100%"></img>
+          <p>this website is under construction</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
