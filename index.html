@@ -31,11 +31,15 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+
+p {
+  font-size: 14px;
+}
   </style>
 
   <body>
     <div id="mainbg">
-      <div id="astwindow" class="window" style="width: 65vw; height: 80vh; position: center">
+      <div id="astwindow" class="window" style="width: 60vw; position: center; overflow: auto">
         <div class="title-bar">
           <div class="title-bar-text">astatide.net</div>
           <div class="title-bar-controls">
@@ -44,27 +48,37 @@ html, body {
             <button aria-label="Close"></button>
           </div>
         </div>
-        <div class="window-body">
-          <div style="display: grid; grid-template-columns: 20% 80%;">
+        <div class="window-body" style=" display: block; overflow: auto;">
+          <div style="display: grid; grid-template-columns: 10vw 1vw 48vw">
             <div>
               <img src="astatidenet.png" style="width: 100%"></img>
               <ul class="tree-view">
                 <li>
-                  Barracuda Engine
+                  <strong>Barracuda Engine</strong>
                   <ul>
-                    <li>Barracuda Engine</li>
-                    <li>Documentation</li>
-                    <li><a href="https://github.com/universeindex/barracuda">Github</a></li>
+                    <li style="color: red;">Barracuda Engine</li>
+                    <li style="color: red;">Documentation</li>
+                    <li style="color: red;">Download</li>
+                    <li><a style="color: red;" href="https://github.com/universeindex/barracuda">Github (private for now)</a></li>
+                  </ul> 
+                  <strong>Community</strong>
+                  <ul>
+                    <li style="color: red">Discord</li>
+                    <li style="color: red">Matrix (Discord Bridge)</li>
                   </ul>
-                  </li>
+                  <li style="color: red">Contact Us Professionally</li>
+                </li>
               </ul>
             </div>
-            <div style="margin-left: 16px;">
+            <div style="border-left: 1px solid #44402080; height: 100%; margin-left: 8px; margin-right: 8px"></div>
+            <div style="margin-left: 16px; margin-right: 16px">
               <h3 style="font-weight: bold; font-style: italic">welcome</h3>
-              <p>The fog is coming</p>
+              <p>We are an independent software and game development group, currently working on the Barracuda game engine and Ladoga Atomic Laboratory, a game built on Barracuda.</p>
+              <p>We develop for fun and out of spite for evil mega-corporations. Our software/games are all open source and free to use/play!</p>
+              <div style="border-top: 1px solid #44402080; height: 1px; margin-top: 8px">
+              <p>This site is still a work in progress. On your left, red links do not work yet.</p>
             <div>
           </div>
-          <p>this website is under construction</p>
         </div>
       </div>
     </div>
