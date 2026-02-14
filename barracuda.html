@@ -3,7 +3,7 @@
 <html>
 
   <head>
-    <title>astatide</title>
+    <title>barracuda - astatide</title>
     <link rel="stylesheet" href="https://unpkg.com/xp.css">
   </head>
 
@@ -39,17 +39,17 @@ p {
 
   <body>
     <div id="mainbg">
-      <div id="astwindow" class="window" style="width: 60vw; position: center; overflow: auto">
+      <div id="astwindow" class="window" style="width: 60vw; height: 95vh; position: center; overflow: hidden">
         <div class="title-bar">
-          <div class="title-bar-text">C:\Users\anon\astatide.net</div>
+          <div class="title-bar-text">C:\Users\anon\astatide.net\BarracudaEngine\BarracudaEngine</div>
           <div class="title-bar-controls">
             <button aria-label="Minimize"></button>
             <button aria-label="Maximize"></button>
             <button aria-label="Close"></button>
           </div>
         </div>
-        <div class="window-body" style=" display: block; overflow: auto;">
-          <div style="display: grid; grid-template-columns: 10vw 1vw 48vw">
+        <div class="window-body" style=" display: block; height: 100%">
+          <div style="display: grid; grid-template-columns: 10vw 1vw 48vw; height: 95%">
             <div>
               <img src="astatidenet.png" style="width: 100%"></img>
               <ul class="tree-view">
@@ -72,13 +72,21 @@ p {
               </ul>
             </div>
             <div style="border-left: 1px solid #44402080; height: 100%; margin-left: 8px; margin-right: 8px"></div>
-            <div style="margin-left: 16px; margin-right: 16px">
-              <h3 style="font-weight: bold; font-style: italic">welcome</h3>
-              <p>We are an independent software and game development group, currently working on the Barracuda game engine and Ladoga Atomic Laboratory, a game built on Barracuda.</p>
-              <p>We develop for fun and out of spite for evil mega-corporations. Our software/games are all open source and free to use/play!</p>
-              <div style="border-top: 1px solid #44402080; height: 1px; margin-top: 8px">
-              <p>This site is still a work in progress. On your left, red links do not work yet.</p>
-            <div>
+            <div style="overflow: scroll">
+              <div style="margin-left: 16px; margin-right: 16px;">
+                <h3 style="font-weight: bold; font-style: italic">barracuda engine</h3>
+                <p>Barracuda Engine is an experimental 3D game engine. It is designed to be simple for beginners, but limitless and empowering for experienced developers.</p>
+                <p>Currently it is in an extremely early stage of development and is nowhere close to being usable for real projects. It is not yet publically available, but will eventually be released most likely using the Zlib license. Check back later!</p>
+                <p><a href="https://github.com/universeindex/barracuda"><strike>Source code & development builds</strike></a></p>
+                <div style="border-top: 1px solid #44402080; height: 1px; margin-top: 8px">
+                <h3 style="font-weight: bold; font-style: italic">gallery</h3>
+                <p>The Forsh Room.</p>
+                <p>... There really isn't much to show yet.</p>
+                <div style="display: grid; padding: 6px; grid-template-columns 50% 50%; image-rendering: smooth">
+                  <img src="forsh.png" style="max-width: 100%; height: auto"></img>
+                </div>
+              <div>
+            </div>
           </div>
         </div>
       </div>
