@@ -11,7 +11,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  line-height: 0;
 }
 
 #mainbg {
@@ -32,12 +31,11 @@ html, body {
   justify-content: center;
   align-items: center;
 }
-
   </style>
 
   <body>
     <div id="mainbg">
-      <div id="astwindow" class="window" style="width: 250px; position: center">
+      <div id="astwindow" class="window" style="width: 65vw; height: 80vh; position: center">
         <div class="title-bar">
           <div class="title-bar-text">astatide.net</div>
           <div class="title-bar-controls">
@@ -47,7 +45,25 @@ html, body {
           </div>
         </div>
         <div class="window-body">
-          <img src="astatidenet.png" style="max-width: 100%; max-height: 100%"></img>
+          <div style="display: grid; grid-template-columns: 20% 80%;">
+            <div>
+              <img src="astatidenet.png" style="width: 100%"></img>
+              <ul class="tree-view">
+                <li>
+                  Barracuda Engine
+                  <ul>
+                    <li>Barracuda Engine</li>
+                    <li>Documentation</li>
+                    <li><a href="https://github.com/universeindex/barracuda">Github</a></li>
+                  </ul>
+                  </li>
+              </ul>
+            </div>
+            <div style="margin-left: 16px;">
+              <h3 style="font-weight: bold; font-style: italic">welcome</h3>
+              <p>The fog is coming</p>
+            <div>
+          </div>
           <p>this website is under construction</p>
         </div>
       </div>
